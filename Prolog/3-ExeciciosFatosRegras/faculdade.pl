@@ -13,3 +13,5 @@ funcionario(ana_paula, puc).
 funcionario(carlos, puc).
 
 sao_alunos_do_professor(A,X) :- professor(X, Materias), aluno(A, Materias).
+
+associados(Pessoa, Faculdade) :- frequenta(Pessoa, Faculdade);funcionario(Pessoa, Faculdade).
