@@ -1,6 +1,9 @@
-# 📚 Guia de Execução de Prolog no VS Code
+# 📚 Registro Pessoal de Estudos em Prolog
 
-Este repositório contém exemplos e tutoriais em **Prolog**. Aqui você encontrará um guia simples e direto para configurar seu ambiente de desenvolvimento e executar programas em Prolog utilizando o **Visual Studio Code**.
+Este repositório é um registro pessoal da minha jornada de estudos em **Prolog**. Aqui, compartilho exemplos, exercícios e anotações que estou criando enquanto aprendo essa linguagem de programação. O objetivo é documentar meu progresso e, ao mesmo tempo, servir como um guia de referência para quem também está começando a explorar o mundo da lógica de programação.
+
+Para me guiar nessa jornada, estou seguindo a playlist de aulas disponível no YouTube:  
+👉 [Playlist de Aulas de Prolog](https://www.youtube.com/playlist?list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx)
 
 ---
 
