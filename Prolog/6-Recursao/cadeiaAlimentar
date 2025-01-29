@@ -1,0 +1,28 @@
+% Fatos sobre animais e plantas
+animal(urso).
+animal(guaxinim).
+animal(peixe).
+animal(peixinho).
+animal(lince).
+animal(raposa).
+animal(coelho).  
+animal(veado).
+
+planta(alga).
+planta(grama).
+
+% Fatos sobre o que cada animal come
+come(peixe, peixinho).
+come(peixinho, alga).
+come(guaxinim, peixe).
+come(urso, peixe).
+come(raposa, coelho).
+come(lince, veado).
+come(coelho, grama).  
+come(urso, raposa).
+come(veado, grama).
+come(urso, veado).
+come(urso, guaxinim).
+
+pertence-cadeia(X, Y) :- animal(X),come(Y,X).
+pertence-cadeia(X, Y) :- come(Y, Z), pertence-cadeia(X, Z).
